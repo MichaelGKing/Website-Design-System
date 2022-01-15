@@ -1,0 +1,138 @@
+
+body {
+    background-color: beige;
+    text-align: center;
+    font-family: 'Luxurious Roman', 'Times New Roman', Times, serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    position: fixed;
+    width: 100%;
+    background-color: beige;
+    z-index: 1;
+    top: 0;
+    border-bottom: solid;
+}
+
+.container-fonts{
+    background-color: bisque;
+    width: 600px;
+    margin: 30px auto 140px auto;
+    border-radius: 15px;
+    padding-top: 1px;
+    padding-bottom: 1px;
+    top: 110px;
+    position: relative;
+}
+
+.container {
+    background-color: bisque;
+    width: 600px;
+    margin: 30px auto;
+    border-radius: 15px;
+    padding-top: 1px;
+    padding-bottom: 1px;
+}
+
+.section-heading {
+    border-bottom: solid;
+    width: 360px;
+    margin: auto;
+}
+
+footer {
+    background-color: #003153;
+    color: white;
+    padding: 5px;
+}
+
+a {
+    color: white;
+}
+/*Font Section*/
+.font-one {
+    font-family: 'Luxurious Roman', 'Times New Roman', Times, serif;
+    margin: auto;
+    width: 400px;
+    padding: 5px;
+    margin: 20px auto;   
+}
+
+.font-two {
+    font-family: 'Lora', 'Times New Roman', Times, serif;
+    margin: auto;
+    width: 400px;
+    padding: 5px;
+    margin: 20px auto;
+}
+
+.font-three {
+    font-family: 'Times New Roman', Times, serif;
+    margin: auto;
+    width: 400px;
+    padding: 5px;
+    margin: 20px auto 30px auto;
+}
+
+/*Style Section*/
+.plain {
+    margin: auto;
+    width: 400px;
+    padding: 5px;
+    margin: 20px auto;
+    font-weight: normal;
+}
+
+.bold {
+    margin: auto;
+    width: 400px;
+    padding: 5px;
+    margin: 20px auto;
+    font-weight: bold;
+}
+
+.italic {
+    margin: auto;
+    width: 400px;
+    padding: 5px;
+    margin: 20px auto 30px auto;
+    font-style: italic;
+}
+
+/*Color section*/
+
+.colours p {
+    display: inline-block;
+    width: 120px;
+    margin: 0 20px;
+    
+}
+
+.section-body-colours {
+    color: black;
+    text-align: center;
+    margin-top: 30px;
+    font-weight: bold;
+}
+
+.colour-panel p {
+    margin: 20px 20px 30px 20px;
+    padding: 50px 0;
+}
+
+.prussian-blue {
+    background-color: #003153;
+    color: white;
+}
+
+.white {
+    background-color: #FFFFFF;
+    color: black;
+}
+
+.roman-red {
+    background-color: #D5544F;
+    color: white;
+}
